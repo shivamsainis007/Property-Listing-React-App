@@ -1,12 +1,30 @@
-# React + Vite
+# Redmi Classifieds - Post Your Ad App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to post ads by selecting categories and subcategories, and filling out relevant forms. This project demonstrates dynamic UI updates based on user selection, React state management, and routing using React Router.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Browse and select from multiple categories like Cars, Properties, Mobiles, Jobs, etc.
+- When "Properties" category is selected, relevant subcategories like "For Sale: Houses & Apartments", "For Rent: Houses & Apartments", and more are displayed.
+- On selecting a subcategory (e.g., "For Sale: Houses & Apartments"), a detailed form appears to post an ad with various attributes.
+- Smooth navigation and state handling using React hooks (`useState`) and React Router (`useNavigate`).
+- Responsive and clean UI styled with Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later recommended)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/yourusername/redmi-classifieds.git
+   cd redmi-classifieds
